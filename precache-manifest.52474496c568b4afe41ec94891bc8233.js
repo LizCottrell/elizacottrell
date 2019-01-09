@@ -36,20 +36,20 @@ self.__precacheManifest = [
     "url": "/elizacottrell-v3/static/media/archaeology.b2cd97e8.png"
   },
   {
-    "revision": "af7ae505a9eed503f8b8e6982036873e",
-    "url": "/elizacottrell-v3/static/media/fontawesome-webfont.af7ae505.woff2"
-  },
-  {
-    "revision": "674f50d287a8c48dc19ba404d20fe713",
-    "url": "/elizacottrell-v3/static/media/fontawesome-webfont.674f50d2.eot"
-  },
-  {
     "revision": "fee66e712a8a08eef5805a46892932ad",
     "url": "/elizacottrell-v3/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
+    "revision": "af7ae505a9eed503f8b8e6982036873e",
+    "url": "/elizacottrell-v3/static/media/fontawesome-webfont.af7ae505.woff2"
+  },
+  {
     "revision": "b06871f281fee6b241d60582ae9369b9",
     "url": "/elizacottrell-v3/static/media/fontawesome-webfont.b06871f2.ttf"
+  },
+  {
+    "revision": "674f50d287a8c48dc19ba404d20fe713",
+    "url": "/elizacottrell-v3/static/media/fontawesome-webfont.674f50d2.eot"
   },
   {
     "revision": "b7ddd3295cd1c2b57958",
