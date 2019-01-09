@@ -1,0 +1,17 @@
+@import '~font-awesome/css/font-awesome.css';
+@import 'sass/base/all';
+
+// app container
+@import 'App';
+
+// pages
+@import 'pages/Home';
+@import 'pages/About';
+@import 'pages/Work';
+
+// shared components
+@import 'components/Nav';
+@import 'components/Footer';
+@import 'components/ProjectList';
+@import 'components/ArticleList';
+@import 'components/Pills';

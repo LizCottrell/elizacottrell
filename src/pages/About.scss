@@ -1,0 +1,24 @@
+.about__header {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  @media (max-width: $sm) {
+    .pills {
+      justify-content: flex-end;
+      width: 100%;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.articlelist {
+  padding: 0;
+}
+
+.timeline__list {
+  @media (max-width: $sm) {
+    padding-left: 20px;
+  }
+}
