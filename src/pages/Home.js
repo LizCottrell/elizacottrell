@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Link } from "react-router-dom";
+var Link = require("react-router-dom").Link;
 
 function Home() {
   return (

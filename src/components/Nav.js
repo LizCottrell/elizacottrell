@@ -1,4 +1,4 @@
-var React = require("react");
+import React from "react";
 var Link = require("react-router-dom").Link;
 var logo = require("../assets/icons/logo.png");
 
@@ -56,4 +56,4 @@ function Nav() {
   );
 }
 
-module.exports = Nav;
+export default Nav;
