@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/elizacottrell-v3/precache-manifest.a3ae1564f541cbcfd7d2893bd20d8e23.js"
+  "/elizacottrell-v3/precache-manifest.bd29b9842a6d81c37378312b0fc8ed88.js"
 );
 
 workbox.clientsClaim();
