@@ -1,10 +1,10 @@
 {
   "main.css": "/elizacottrell-v3/static/css/main.f036b5f2.chunk.css",
-  "main.js": "/elizacottrell-v3/static/js/main.6a820b01.chunk.js",
-  "main.js.map": "/elizacottrell-v3/static/js/main.6a820b01.chunk.js.map",
+  "main.js": "/elizacottrell-v3/static/js/main.44002ea2.chunk.js",
+  "main.js.map": "/elizacottrell-v3/static/js/main.44002ea2.chunk.js.map",
   "static/css/1.e2117f56.chunk.css": "/elizacottrell-v3/static/css/1.e2117f56.chunk.css",
-  "static/js/1.9dcc43bf.chunk.js": "/elizacottrell-v3/static/js/1.9dcc43bf.chunk.js",
-  "static/js/1.9dcc43bf.chunk.js.map": "/elizacottrell-v3/static/js/1.9dcc43bf.chunk.js.map",
+  "static/js/1.b1a3a332.chunk.js": "/elizacottrell-v3/static/js/1.b1a3a332.chunk.js",
+  "static/js/1.b1a3a332.chunk.js.map": "/elizacottrell-v3/static/js/1.b1a3a332.chunk.js.map",
   "runtime~main.js": "/elizacottrell-v3/static/js/runtime~main.49ce5e4c.js",
   "runtime~main.js.map": "/elizacottrell-v3/static/js/runtime~main.49ce5e4c.js.map",
   "static/media/batala.png": "/elizacottrell-v3/static/media/batala.0d487c26.png",
@@ -15,6 +15,6 @@
   "static/css/main.f036b5f2.chunk.css.map": "/elizacottrell-v3/static/css/main.f036b5f2.chunk.css.map",
   "static/css/1.e2117f56.chunk.css.map": "/elizacottrell-v3/static/css/1.e2117f56.chunk.css.map",
   "index.html": "/elizacottrell-v3/index.html",
-  "precache-manifest.7743e638e927d7f4de9c2a3745e3c933.js": "/elizacottrell-v3/precache-manifest.7743e638e927d7f4de9c2a3745e3c933.js",
+  "precache-manifest.44f34ec56c9051a3ea2e6182446448e7.js": "/elizacottrell-v3/precache-manifest.44f34ec56c9051a3ea2e6182446448e7.js",
   "service-worker.js": "/elizacottrell-v3/service-worker.js"
 }
