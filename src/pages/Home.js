@@ -17,17 +17,14 @@ function Home() {
           >
             Think Company
           </a>{" "}
-          in Philly. I also continue design work in the archaeology community
-          creating interpretive signs and laying out scientific reports.
+          in Philly. I also continue to work with the archaeology community on
+          freelance projects creating interpretive signs and laying out
+          scientific reports.
         </p>
-        <p>
-          This site is intended to show my work and career transition from
-          archaeology to technology. I accomplished my career change through
-          meetups, online MOOCs, workshops, networking, and simply putting
-          myself out there. My passion-projects are web accessibility and
-          motivating people of all backgrounds looking to break into tech.
-        </p>
-        <Link className="home__button button" to="/about">
+        <Link
+          className="home__button button"
+          to={`${process.env.PUBLIC_URL}/about`}
+        >
           Read more
           <span className="sr-only">about Eliza</span>
         </Link>

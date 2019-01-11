@@ -1,23 +1,29 @@
 import React from "react";
+import logo from "../assets/icons/logo.png";
 var Link = require("react-router-dom").Link;
-var logo = require("../assets/icons/logo.png");
 
 function Nav() {
   return (
     <nav className="nav__wrapper">
       <div className="nav container">
         <div className="nav__brand nav__list">
-          <Link className="nav__list-item" to="/">
+          <Link className="nav__list-item" to={`${process.env.PUBLIC_URL}/`}>
             <img src={logo} className="nav__brand-icon" alt="" />
             Eliza Cottrell <span className="sr-only">Home</span>
           </Link>
         </div>
 
         <div className="nav__list nav__list--links">
-          <Link className="nav__list-item" to="/about">
+          <Link
+            className="nav__list-item"
+            to={`${process.env.PUBLIC_URL}/about`}
+          >
             About me
           </Link>
-          <Link className="nav__list-item" to="/work">
+          <Link
+            className="nav__list-item"
+            to={`${process.env.PUBLIC_URL}/work`}
+          >
             Work
           </Link>
         </div>

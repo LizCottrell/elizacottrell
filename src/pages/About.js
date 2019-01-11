@@ -23,24 +23,31 @@ function About() {
         </header>
 
         <p>
-          I’m a self taught web developer and designer from Philadelphia. I
-          currently work at Think Company as a full stack software developer.
-          Day to day, I collaborate with cross-functional teams of technical
-          leads, developers, UX designers, visual designers, and researchers on
-          internal and client projects. I work with HTML, CSS, JavaScript
-          frameworks, and git in an agile environment. I also perform quality
-          assurance testing of websites and applications, and I write
-          documentation.
+          I’m a self taught web developer and designer from Philadelphia
+          currently working as a full stack software developer. Day to day, I
+          collaborate with cross-functional teams of technical leads,
+          developers, UX designers, visual designers, and researchers on
+          internal and client projects. I work with HTML, CSS, and JavaScript
+          creating single page applications in an agile environment. I'm
+          well-versed in quality assurance testing of websites and applications
+          and writing thoughtful documentation.
         </p>
         <p>
-          My transition into this role began with community organizations like
-          Girl Develop It. I also learned with online courses, teaching myself
-          how to code on nights and weekends. I quickly recognized that there
-          was more value in a classroom, lecture, panel or event than sitting
-          alone in front of a computer trying to hack it on my own. Because of
-          the enormous amount of support I received when I started out, I wanted
-          to give back as soon as I could. I now teach, speak, volunteer, TA,
-          and organize events in the tech community.
+          My transition into web development began with community organizations
+          like Girl Develop It and other local tech meetups. I also learned with
+          online courses, teaching myself how to code on nights and weekends. I
+          quickly recognized there is more value in a classroom, lecture, panel
+          or event as opposed to sitting alone in front of a computer trying to
+          hack it on my own. Because of the enormous amount of support I
+          received when I started out, I aimed to give back as soon as I could.
+          I now teach, speak, volunteer, TA, and organize events in the tech
+          community.
+        </p>
+        <p>
+          This site is intended to show my work and career transition from
+          archaeology to technology. Throughout this transition, I've found my
+          passion-projects are web accessibility and motivating people of all
+          backgrounds looking to break into tech.
         </p>
       </section>
 
