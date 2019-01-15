@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, HashRouter } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Work from "./pages/Work";
@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 class App extends Component {
   render() {
     return (
-      <HashRouter>
+      <Router>
         <div className="app">
           <Nav />
           <main className="app-main">
@@ -18,7 +18,7 @@ class App extends Component {
           </main>
           <Footer />
         </div>
-      </HashRouter>
+      </Router>
     );
   }
 }
