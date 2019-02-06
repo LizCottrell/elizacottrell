@@ -1,9 +1,6 @@
 import React from "react";
 import ProjectList from "../components/ProjectList";
-import batala from "../assets/images/batala.png";
-import hoagiefest from "../assets/images/hoagiefest.png";
-import farmer from "../assets/images/farmer.png";
-import archaeology from "../assets/images/archaeology.png";
+import projects from "../data/projects.js";
 
 function Work() {
   return (
@@ -24,29 +21,16 @@ function Work() {
       <section>
         <h2>Featured Projects</h2>
         <ul className="projectlist">
-          <ProjectList
-            image={batala}
-            title="Batala Philadelphia"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-          />
-
-          <ProjectList
-            image={hoagiefest}
-            title="Wawa Hoagiefest"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-          />
-
-          <ProjectList
-            image={farmer}
-            title="The Farmer &amp; The Chef"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-          />
-
-          <ProjectList
-            image={archaeology}
-            title="Archaeology and History"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-          />
+          {projects.map((project, index) => {
+            return (
+              <ProjectList
+                key={index}
+                image={project.image}
+                title={project.title}
+                text={project.text}
+              />
+            );
+          })}
         </ul>
       </section>
     </div>
