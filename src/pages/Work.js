@@ -8,13 +8,37 @@ function Work() {
       <section>
         <h1>Work</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          As a <strong>web developer</strong>, I contribute to large scale
+          content and API driven applications for clients ranging from financial
+          services to retail to non-profit. I started out as a UI developer
+          creating custom emails, campaign driven single page sites, HTML5
+          animations, and managing CMS content and theming for a digital agency.
+          Now, as a full-stack developer, I primarily work with React and Redux
+          incorporating single page applications into .NET environments on large
+          applications. This includes developing pattern libraries, performing
+          test driven development, mitigating for accessibility in javascript
+          frameworks, and cross-browser compatibility.
+        </p>
+        <p>
+          As <strong>web designer</strong>, I create end-to-end experiences
+          addressing challenges, goals and strategies, as well as brand refresh,
+          app planning and design iterations. The{" "}
+          <a href="https://openforge.io/juntoscope/" target="_blank">
+            Juntoscope case study
+          </a>{" "}
+          showcases my userflow and wireframe creation for a team estimation app
+          that integrates with project management software. And the Batala
+          Philadelphia website, seen below, is an example of my design and
+          implementation of a single page site for a non-profit.
+        </p>
+        <p>
+          As <strong>graphic designer</strong> and{" "}
+          <strong>archaeologist</strong>, I was responsible for scientific
+          illustrations, report graphics, public outreach materials, and
+          interpretive signs in addition to a number of other deliverables.
+          Although I no longer excavate or join projects as a field tech, I
+          continue to work with the community via volunteer opportunities and
+          freelance.
         </p>
       </section>
 
@@ -27,6 +51,10 @@ function Work() {
                 key={index}
                 image={project.image}
                 title={project.title}
+                github={project.github}
+                url={project.url}
+                design={project.design}
+                development={project.development}
                 text={project.text}
               />
             );

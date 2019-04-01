@@ -9,24 +9,24 @@ class ProjectList extends React.Component {
           <div className="project__header">
             <h3>{this.props.title}</h3>
             <div className="project__icons">
-              <a href="https://github.com/">
-                <i className="fa fa-github" />
-                <span className="sr-only">Github</span>
-              </a>
-              <a href="http://wwww.google.com">
-                <i className="fa fa-link" />
-                <span className="sr-only">See more</span>
-              </a>
-              <a href="http://wwww.google.com">
-                <i className="fa fa-external-link" />
-                <span className="sr-only">External link</span>
-              </a>
+              {this.props.github && (
+                <a href={this.props.github} target="_blank">
+                  <i className="fa fa-github" />
+                  <span className="sr-only">Github</span>
+                </a>
+              )}
+              {this.props.url && (
+                <a href={this.props.url} target="_blank">
+                  <i className="fa fa-external-link" />
+                  <span className="sr-only">External link</span>
+                </a>
+              )}
             </div>
           </div>
-          <p>{this.props.text}</p>
+          <p dangerouslySetInnerHTML={{ __html: this.props.text }} />
           <ul className="project__pills">
-            <li>Design</li>
-            <li>Development</li>
+            {this.props.design && <li>Design</li>}
+            {this.props.development && <li>Development</li>}
           </ul>
         </div>
       </li>
