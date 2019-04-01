@@ -11,7 +11,7 @@ function Work() {
           As a <strong>web developer</strong>, I contribute to large scale
           content and API driven applications for clients ranging from financial
           services to retail to non-profit. I started out as a UI developer
-          creating custom emails, campaign driven single page sites, HTML5
+          creating custom emails, campaign-driven single page sites, HTML5
           animations, and managing CMS content and theming for a digital agency.
           Now, as a full-stack developer, I primarily work with React and Redux
           incorporating single page applications into .NET environments on large
@@ -30,15 +30,6 @@ function Work() {
           that integrates with project management software. And the Batala
           Philadelphia website, seen below, is an example of my design and
           implementation of a single page site for a non-profit.
-        </p>
-        <p>
-          As <strong>graphic designer</strong> and{" "}
-          <strong>archaeologist</strong>, I was responsible for scientific
-          illustrations, report graphics, public outreach materials, and
-          interpretive signs in addition to a number of other deliverables.
-          Although I no longer excavate or join projects as a field tech, I
-          continue to work with the community via volunteer opportunities and
-          freelance.
         </p>
       </section>
 

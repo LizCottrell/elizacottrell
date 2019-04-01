@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Work from "./pages/Work";
+import Contact from "./pages/Contact";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 class App extends Component {
@@ -15,6 +16,10 @@ class App extends Component {
             <Route exact path={`${process.env.PUBLIC_URL}/`} component={Home} />
             <Route path={`${process.env.PUBLIC_URL}/about`} component={About} />
             <Route path={`${process.env.PUBLIC_URL}/work`} component={Work} />
+            <Route
+              path={`${process.env.PUBLIC_URL}/contact`}
+              component={Contact}
+            />
           </main>
           <Footer />
         </div>

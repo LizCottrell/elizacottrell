@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className="home container">
       <section>
-        <h1>Hi, I'm Eliza.</h1>
+        <h1>Hi, I'm Eliza</h1>
         <p>
           I’m a <strong>front end developer</strong>, <strong>designer</strong>,
           and <strong>former archaeologist</strong> from Philadelphia. I work as

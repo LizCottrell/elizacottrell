@@ -26,6 +26,12 @@ function Nav() {
           >
             Work
           </Link>
+          <Link
+            className="nav__list-item"
+            to={`${process.env.PUBLIC_URL}/contact`}
+          >
+            Contact
+          </Link>
         </div>
 
         <div className="nav__list">
