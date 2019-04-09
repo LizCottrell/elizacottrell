@@ -12,7 +12,7 @@ class Contact extends Component {
             <strong>elizabeth.cottrell at gmail.com</strong>
             <br />
             Contact me for my most recent work samples. <br />
-            Professional inqueries only, please.
+            Professional inquiries only, please.
           </p>
           <div className="resume">
             <a href={pdf} target="_blank" className="button">
