@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.38fe773f.chunk.css",
-  "main.js": "/static/js/main.63d3769d.chunk.js",
-  "main.js.map": "/static/js/main.63d3769d.chunk.js.map",
+  "main.js": "/static/js/main.1016dd88.chunk.js",
+  "main.js.map": "/static/js/main.1016dd88.chunk.js.map",
   "static/css/1.29c95201.chunk.css": "/static/css/1.29c95201.chunk.css",
   "static/js/1.fb0f2c51.chunk.js": "/static/js/1.fb0f2c51.chunk.js",
   "static/js/1.fb0f2c51.chunk.js.map": "/static/js/1.fb0f2c51.chunk.js.map",
@@ -11,11 +11,11 @@
   "static/media/farmer.png": "/static/media/farmer.01d93121.png",
   "static/media/archaeology.png": "/static/media/archaeology.b2cd97e8.png",
   "static/media/resume_cottrell2019.pdf": "/static/media/resume_cottrell2019.81c62154.pdf",
-  "static/media/index.scss": "/static/media/fontawesome-webfont.b06871f2.ttf",
+  "static/media/index.scss": "/static/media/fontawesome-webfont.912ec66d.svg",
   "static/media/hoagiefest.png": "/static/media/hoagiefest.73417b09.png",
   "static/css/main.38fe773f.chunk.css.map": "/static/css/main.38fe773f.chunk.css.map",
   "static/css/1.29c95201.chunk.css.map": "/static/css/1.29c95201.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.d5c944556313b604e86a31ccef339d3f.js": "/precache-manifest.d5c944556313b604e86a31ccef339d3f.js",
+  "precache-manifest.c23e0e416faf4c48660ab1ff1173bee6.js": "/precache-manifest.c23e0e416faf4c48660ab1ff1173bee6.js",
   "service-worker.js": "/service-worker.js"
 }
